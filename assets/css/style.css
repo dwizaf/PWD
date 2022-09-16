@@ -1,0 +1,141 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    background-color: rgb(177, 217, 177);
+    margin: 0;
+    padding: 20px;
+}
+
+body, div, input, select { 
+    padding: 0;
+    margin: 0;
+    /* outline: none; */
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+    }
+
+    form {
+        border: 3px black;
+    }
+    
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 25px;
+    /* background: rgba(0, 0, 0, 0.5);  */
+    }
+
+label {
+    color: rgb(57, 57, 57);
+    font-family: serif;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+input[type=text], input[type=date], input[type=textarea], input[type=file] {
+    padding: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    /* border: none; */
+    border: 1px solid #eee;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgray;
+}
+
+input[type=radio] {
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+select {
+    padding: 8px 8px 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: transparent;
+}
+
+@media (min-width: 568px) {
+    .title-block {
+    display: flex;
+    justify-content: space-between;
+    }
+    .title-block select {
+    width: 30%;
+    margin-bottom: 30px;
+    }
+   }
+
+   option {
+    background: #fff;
+    }
+
+
+form {
+    display: flex;
+    width: 35%;
+    padding: 16px;
+    flex-direction: column;
+    border: 3px rgb(177, 217, 177);
+    border-radius: 16px;
+}
+
+button {
+    width: fit-content;
+    font-family: Raleway, sans-serif;
+    border-radius: 16px;
+    padding: 12px 24px;
+    border: 2px solid rgb(177, 217, 177);
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+a {
+    width: fit-content;
+    font-family: Raleway, sans-serif;
+    border-radius: 16px;
+    padding: 5px 24px;
+    border: 2px solid rgb(177, 217, 177);
+    color: black;
+    font-size: 15px;
+    margin-top: 30px;
+    align-self: flex-end;
+    cursor: pointer;
+    font-style: none;
+}
+
+button:hover {
+    background: rgb(88, 155, 88);
+    color: white;
+}
+
+a:hover {
+    background: rgb(88, 155, 88);
+    color: white;
+}
+
+/* table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  } */
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){
+    background-color: #f2f2f2
+}
