@@ -31,7 +31,7 @@
                 </div>
                 <label>Upload Foto</label>
                 <input type="file" name="ft" id="foto">
-                <button type="submit">Daftar</button>
+                <button type="submit" name="submit">Daftar</button>
             </form>
         </div>
     </body>
